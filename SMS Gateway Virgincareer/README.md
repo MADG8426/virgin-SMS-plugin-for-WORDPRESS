@@ -14,5 +14,7 @@ add below "woocommerce_thankyou_order_received_text" find the phrase then
 
 copy this and paste in the above mentioned location  -->  
 `code`
+<?php
 send_sms($order->get_billing_phone(),$order->get_order_number());
+?>
 `code`
